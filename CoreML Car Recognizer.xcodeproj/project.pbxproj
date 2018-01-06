@@ -12,6 +12,7 @@
 		ED32C13B20010C7700C991D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32C13920010C7700C991D5 /* Main.storyboard */; };
 		ED32C13D20010C7700C991D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED32C13C20010C7700C991D5 /* Assets.xcassets */; };
 		ED32C14020010C7700C991D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32C13E20010C7700C991D5 /* LaunchScreen.storyboard */; };
+		ED32C14820010E5A00C991D5 /* CarRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ED32C14720010E5A00C991D5 /* CarRecognition.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED32C13C20010C7700C991D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED32C13F20010C7700C991D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED32C14120010C7700C991D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED32C14720010E5A00C991D5 /* CarRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarRecognition.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		ED32C13420010C7700C991D5 /* CoreML Car Recognizer */ = {
 			isa = PBXGroup;
 			children = (
+				ED32C14720010E5A00C991D5 /* CarRecognition.mlmodel */,
 				ED32C13520010C7700C991D5 /* AppDelegate.swift */,
 				ED32C13720010C7700C991D5 /* ViewController.swift */,
 				ED32C13920010C7700C991D5 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				ED32C13820010C7700C991D5 /* ViewController.swift in Sources */,
 				ED32C13620010C7700C991D5 /* AppDelegate.swift in Sources */,
+				ED32C14820010E5A00C991D5 /* CarRecognition.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KN952WR85;
 				INFOPLIST_FILE = "CoreML Car Recognizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thelightprj.CoreML-Car-Recognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KN952WR85;
 				INFOPLIST_FILE = "CoreML Car Recognizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thelightprj.CoreML-Car-Recognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
